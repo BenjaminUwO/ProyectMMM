@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundblur">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <LinearLayout
+                android:id="@+id/contenedorMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner_top"
+                android:orientation="vertical">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="20sp"-->
+<!--                    app:srcCompat="@drawable/amimir" />-->
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/childejump3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintVertical_bias="0.29"
+                    />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:paddingBottom="10sp"
+                    android:text="Bienvenido!!"
+                    android:textAlignment="center"
+                    android:textColor="#6C2E26"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedor2nd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner_bottom"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:fontFamily="@font/amita"
+                    android:paddingBottom="10sp"
+                    android:text="¿Cúal es tu nombre?"
+                    android:textAlignment="center"
+                    android:textColor="#6C2E26"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TxtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:ems="10"
+                    android:fontFamily="@font/amita"
+                    android:hint="Ingresa tu nombre"
+                    android:inputType="textPersonName"
+                    android:textColor="#6C2E26"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/BtnNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:backgroundTint="@color/style_button"
+                    android:fontFamily="@font/amita"
+                    android:text="Ingresar"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ContJuegos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round_corner_all"
+                android:gravity=""
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/LblSaludo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="Hola "
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/TxtNa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="¿Qué deseas jugar hoy?"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/BtnValores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/style_button"
+                        android:fontFamily="@font/amita"
+                        android:text="conoce los valores"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/LblPuntValores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/amita"
+                        android:text="Puntaje: 0" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
