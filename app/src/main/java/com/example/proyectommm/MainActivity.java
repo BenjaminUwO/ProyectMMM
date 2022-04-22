@@ -3,6 +3,7 @@ package com.example.proyectommm;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ContJuegos = findViewById(R.id.ContJuegos);
 
         BtnNombre.setOnClickListener(this);
-
+        BtnValores.setOnClickListener(this);
 
 
     }
@@ -49,6 +50,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 LblSaludo.setText("Hola "+NombreUsuario);
                 ContJuegos.setVisibility(View.VISIBLE);
                 break;
+            case R.id.BtnValores:
+                openActivityValores();
+                break;
         }
+    }
+
+    public void openActivityValores() {
+        Intent intentValores = new Intent(this, Activity_Valores.class);
+        startActivity(intentValores);
     }
 }
