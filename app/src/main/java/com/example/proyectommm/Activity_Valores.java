@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class Activity_Valores extends AppCompatActivity implements View.OnClickListener {
 
+    // HOLA BUENAS TARDES
+
     Button BtnIniciar, Btn1Honestidad, Btn1Justicia, Btn1Amor, Btn1Solidaridad, Btn2Honestidad, Btn2Justicia, Btn2Amor, Btn2Libertad, BtnSN1;
     LinearLayout Layout1Libertad, Layout1Amor, LayoutF1, LayoutInicio;
     TextView LblM1;
