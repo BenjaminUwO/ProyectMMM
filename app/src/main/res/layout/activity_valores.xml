@@ -291,4 +291,367 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/Layout1Empatia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_all"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:src="@drawable/empatia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="Que valor muestra la imagen?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn3Honestidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Honestidad"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn3Justicia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Justicias"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn3Empatia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Empatia"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn3Solidaridad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Solidaridad"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutF3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_corner_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/LblM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/migo" />
+
+        <Button
+            android:id="@+id/BtnSN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/style_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Siguiente Nivel!"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout1Respeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_all"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:src="@drawable/respeto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="Que valor muestra la imagen?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn4Respeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Respeto"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn4Justicia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Justicia"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn4Empatia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Empatia"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn4Solidaridad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Solidaridad"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutF4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_corner_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/LblM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/migo" />
+
+        <Button
+            android:id="@+id/BtnSN4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/style_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Siguiente Nivel!"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout1Honestidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_all"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:src="@drawable/honestidad" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="Que valor muestra la imagen?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn5Respeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Respeto"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn5Honestidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Honestidad"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn5Empatia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Empatia"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn5Solidaridad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Solidaridad"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutF5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_corner_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/LblM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/migo" />
+
+        <Button
+            android:id="@+id/BtnSN5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/style_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Siguiente Nivel!"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
     </LinearLayout>
