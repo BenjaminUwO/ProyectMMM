@@ -1,18 +1,294 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    tools:context=".Activity_Valores">
 
-    <TextView
-        android:id="@+id/LblTitulo"
-        android:layout_width="wrap_content"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".Activity_Valores"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:background="@drawable/backgroundblur2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LayoutInicio"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/round_corner_all_second"
+                android:padding="20sp">
+
+                <TextView
+                    android:id="@+id/LblTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="Desea comenzar con el juego?"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/BtnIniciar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/style_button"
+                    android:text="iniciar"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amita"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout1Amor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round_corner_all"
+            android:padding="20sp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:src="@drawable/amorimg1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Que valor muestra la imagen?"
+                android:textAlignment="center"
+                android:fontFamily="@font/amita"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/Btn1Honestidad"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/style_button"
+                    android:textColor="@color/black"
+                    android:text="Honestidad"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/Btn1Justicia"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/style_button"
+                    android:textColor="@color/black"
+                    android:text="Justicias"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/Btn1Amor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/style_button"
+                    android:textColor="@color/black"
+                    android:text="amor"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/Btn1Solidaridad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/style_button"
+                    android:textColor="@color/black"
+                    android:text="Solidaridad"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutF1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/amita"
-        android:text="ola buenas tardes"
-        android:textSize="30sp" />
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_corner_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/LblM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/migo" />
+
+        <Button
+            android:id="@+id/BtnSN1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/style_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Siguiente Nivel!"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout1Libertad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_all"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:src="@drawable/libertadimg2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="Que valor muestra la imagen?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn2Honestidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Honestidad"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn2Justicia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Justicia"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Btn2Amor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="amor"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Btn2Libertad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Libertad"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutF2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_corner_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/LblM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/migo" />
+
+        <Button
+            android:id="@+id/BtnSN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/style_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Siguiente Nivel!"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    </LinearLayout>
