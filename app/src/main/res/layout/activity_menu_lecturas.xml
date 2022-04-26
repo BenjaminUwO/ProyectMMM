@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuLecturas"
+    android:background="@drawable/menu_cuentos_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/lato_black"
+            android:text="CUENTOS"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="@font/lato_regular"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:text="¡Esta es una serie de cuentos orientados a aprender los valores de una manera muy divertida!"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EA91AF"
+                android:drawableEnd="@drawable/icono_corazon"
+                android:fontFamily="@font/lato_black"
+                android:text="AMOR"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="#FBCD87"
+                android:drawableEnd="@drawable/icono_justicia"
+                android:fontFamily="@font/lato_black"
+                android:text="Justicia"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="#818181"
+                android:drawableEnd="@drawable/icono_libertad"
+                android:fontFamily="@font/lato_black"
+                android:text="Libertad"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
