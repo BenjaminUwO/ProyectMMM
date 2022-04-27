@@ -179,30 +179,6 @@
                         android:text="Puntaje: 0" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/BtnCuest"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/style_button"
-                        android:fontFamily="@font/amita"
-                        android:text="Cuestionario"
-                        android:textColor="#000000" />
-
-                    <TextView
-                        android:id="@+id/LblCuest"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5sp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/amita"
-                        android:text="Puntaje: 0" />
-                </LinearLayout>
-
 
             </LinearLayout>
         </LinearLayout>
