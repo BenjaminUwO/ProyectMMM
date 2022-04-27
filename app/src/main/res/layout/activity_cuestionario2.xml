@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Cuestionario2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bglumff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+
+            <LinearLayout
+                android:id="@+id/ContJuegos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round_corner_all_third"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="Responde correctamente las siguientes preguntas"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="¿Cómo se llamaba el conejo más grande?"
+                        android:fontFamily="@font/amita"
+                        android:textSize="15dp"/>
+
+                    <RadioButton
+                        android:id="@+id/correcto1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Se llamaba Serapio" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Era antonio" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Le gustaba comer pastel" />
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amita"
+                        android:textSize="15dp"
+                        android:text="¿Qué pasa cuando le faltas el respeto a alguien?" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Se siente aliviado ya que no le importa" />
+
+                    <RadioButton
+                        android:id="@+id/correcto2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="El corazón de la persona queda marcada" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pedro deja de hacer travesuras"/>
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amita"
+                        android:textSize="15dp"
+                        android:text="¿Qué debes de hacer si faltas al respeto?" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Comer una manzana roja" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ir con mi mamá, ella me abraza y soy feliz" />
+
+                    <RadioButton
+                        android:id="@+id/correcto3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tengo que pedir perdón" />
+
+                </RadioGroup>
+
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/BtnResponder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="Responder"
+                    android:textSize="15dp"
+                    android:backgroundTint="@color/style_button"
+                    android:textColor="@color/cafekk"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round_corner_all"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/LblRes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amita"
+                    android:text="a"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/BtnRegresar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:backgroundTint="@color/style_button"
+                    android:fontFamily="@font/amita"
+                    android:text="Volver"
+                    android:textColor="@color/cafekk"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

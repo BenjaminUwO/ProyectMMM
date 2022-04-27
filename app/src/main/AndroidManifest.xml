@@ -10,19 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoMMM">
         <activity
-            android:name=".ActivityRespetoLectura"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityJusticiaLectura"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityAmorLectura"
+            android:name=".Activity_Cuestionario2"
             android:exported="false" />
         <activity
             android:name=".ActivityMenuLecturas"
             android:exported="false" />
         <activity
             android:name=".Activity_Valores"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Cuestionario"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAmorLectura"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityJusticiaLectura"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRespetoLectura"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
