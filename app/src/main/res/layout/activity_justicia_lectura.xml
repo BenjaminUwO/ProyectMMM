@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityJusticiaLectura"
+    android:background="@drawable/lectura_justicia_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Lectura #1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bold"
+                android:text="La Grandeza De Un Rey"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bolditalic"
+                android:text="Autor Desconocido"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/justicia" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_regular"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="35sp"
+                android:text="Había una vez un poderoso rey que tenía tres hijos. Dudando sobre quién debía sucederlo en el trono, envió a cada uno de ellos a gobernar un territorio durante cinco años, al término de los cuales deberían volver junto a su padre para mostrarle sus logros.\n\n  Así marcharon los tres, cada uno a su lugar, alegres por poder ejercer como reyes. Pero al llegar descubrieron decepcionados que tan sólo se trataba de pequeñas villas con un puñado de aldeanos, en las que ni siquiera había un castillo.\n\n  - Seguro que a mis hermanos se les han dado reinos mayores, pero demostraré a mi padre que puedo ser un gran rey - se dijo el mayor. Y juntando a los pocos habitantes de su villa, les enseñó las artes de la guerra para formar un pequeño ejército con el que conquistar las villas vecinas. Así, su pequeño reino creció en fuerza y poder, y al cabo de los cinco años había multiplicado cien veces su extensión. Orgulloso, el joven príncipe reunió a aquellos primeros aldeanos, y viajó junto a su padre.\n\n  - Seguro que a mis hermanos se les han dado reinos mayores; sin duda mi padre quiere probar si puedo ser un gran rey - pensó el mediano. Y desde aquel momento inició con sus aldeanos la construcción del mayor de los palacios. Y tras cinco años de duro trabajo, un magnífico palacio presidía la pequeña aldea. Satisfecho, el joven príncipe viajó junto a su padre en compañía de sus fieles aldeanos.\n\n  - Seguro que a mis hermanos se les han dado reinos mayores, así que la gente de esta aldea debe de ser importante para mi padre - pensó el pequeño. Y resolvió cuidar de ellos y preocuparse por que nada les faltara. Durante sus cinco años de reinado, la aldea no cambió mucho; era un lugar humilde y alegre, con pequeñas mejoras aquí y allá, aunque sus aldeanos parecían muy satisfechos por la labor del príncipe, y lo acompañaron gustosos junto al rey.\n\n  Los tres hermanos fueron recibidos con alegría por el pueblo, con todo preparado para la gran fiesta de coronación. Pero cuando llegaron ante su padre y cada uno quiso contar las hazañas que debían hacerle merecedor del trono, el rey no los dejó hablar. En su lugar, pidió a los aldeanos que contaran cómo habían sido sus vidas.\n\n  Así, los súbditos del hijo mayor mostraron las cicatrices ganadas en sus batallas, y narraron todo el esfuerzo y sufrimiento que les había supuesto extender su reino. El hermano mayor sería un rey temible, fuerte y poderoso, y se sentían orgullosos de él.\n\n  Los súbditos del mediano contaron cómo, bajo el liderazgo del príncipe, habían trabajado por la mañana en el campo y por la tarde en la obra para construir tan magnífico palacio. Sin duda sería un gran rey capaz de los mayores logros, y se sentían orgullosos de él."
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

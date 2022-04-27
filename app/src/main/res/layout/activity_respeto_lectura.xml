@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRespetoLectura"
+    android:background="@drawable/lectura_respeto_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Lectura #1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bold"
+                android:text="La Grandeza De Un Rey"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bolditalic"
+                android:text="Autor Desconocido"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/respeto_lectura" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_regular"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="35sp"
+                android:text="Había una vez un conejo que se llamaba Serapio. Él vivía en lo más alto de una montaña con sus nietas Serafina y Séfora. Serapio era un conejo bueno y muy respetuoso con todos los animales de la montaña y por ello lo apreciaban mucho. Pero sus nietas eran diferentes: no sabían lo que era el respeto a los demás.\n\n  Serapio siempre pedía disculpas por lo que ellas hacían. Cada vez que ellas salían a pasear, Serafina se burlaba: 'Pero mira qué fea está esa oveja. Y mira la nariz del toro'. 'Sí, mira qué feos son', respondía Séfora delante de los otros animalitos. Y así se la pasaban molestando a los demás, todos los días.\n\n  Un día, cansado el abuelo de la mala conducta de sus nietas (que por más que les enseñaba, no se corregían), se le ocurrió algo para hacerlas entender y les dijo: 'Vamos a practicar un juego en el que cada una tendrá un cuaderno. En él escribiréis la palabra disculpas, cada vez que le faltéis el respeto a alguien. Ganará la que escriba menos esa palabra'.\n\n  'Está bien abuelo, juguemos', respondieron al mismo tiempo. Cuando Séfora le faltaba el respeto a alguien, Serafina le recordaba el juego y hacía que escribiera en su cuaderno la palabra disculpas (porque así Séfora tendría más palabras y perdería el juego).\n\n  De igual forma Séfora le recordaba a Serafina cuando le faltaba el respeto a alguien. Pasaron los días y hartas de escribir, las dos se pusieron a conversar: '¿No sería mejor que ya no le faltemos el respeto a la gente? Así ya no sería necesario pedir disculpas'.\n\n  Llegó el momento en que Serapio tuvo que felicitar a ambas porque ya no tenían quejas de los vecinos. Les pidió a las conejitas que borraran poco a poco todo lo escrito hasta que sus cuadernos quedaran como nuevos.\n\n  Las conejitas se sintieron muy tristes porque vieron que era imposible que las hojas del cuaderno quedaran como antes. Se lo contaron al abuelo y él les dijo: 'Del mismo modo queda el corazón de una persona a la que le faltamos el respeto. Queda marcado y por más que pidamos disculpas, las huellas no se borran por completo. Por eso debemos respetar a los demás así como nos gustaría que nos respeten a nosotros'."
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,7 +44,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/BtnLecturaAmor"
                 android:layout_width="350sp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#EA91AF"
@@ -54,7 +54,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/BtnLecturaJusticia"
                 android:layout_width="350sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15sp"
@@ -65,14 +65,14 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/BtnLecturaRespeto"
                 android:layout_width="350sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15sp"
-                android:backgroundTint="#818181"
+                android:backgroundTint="#81D4FA"
                 android:drawableEnd="@drawable/icono_libertad"
                 android:fontFamily="@font/lato_black"
-                android:text="Libertad"
+                android:text="Respeto"
                 android:textSize="25sp" />
         </LinearLayout>
 
