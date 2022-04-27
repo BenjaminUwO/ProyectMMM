@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoMMM">
         <activity
+            android:name=".Activity_Cuestionario3"
+            android:exported="false" />
+        <activity
             android:name=".Activity_Cuestionario2"
             android:exported="false" />
         <activity

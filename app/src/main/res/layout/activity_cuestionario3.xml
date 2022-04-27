@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Cuestionario2">
+    tools:context=".Activity_Cuestionario3">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bglumff">
+        android:background="@drawable/backgroundblur">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20sp"
-                android:background="@drawable/round_corner_all_third"
+                android:background="@drawable/round_corner_all"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="20sp">
@@ -43,7 +43,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="¿Cómo se llamaba el conejo más grande?"
+                        android:text="¿Cómo era el hermano mayor?"
                         android:fontFamily="@font/amita"
                         android:textSize="15dp"/>
 
@@ -51,17 +51,17 @@
                         android:id="@+id/correcto1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Se llamaba Serapio" />
+                        android:text="El hermano mayor sería un caballero honorario" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Era antonio" />
+                        android:text="El hermano mayor sería un aventurero muy feliz" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Le gustaba comer pastel" />
+                        android:text="El hermano mayor sería un rey temible, fuerte y poderoso" />
 
                 </RadioGroup>
 
@@ -75,23 +75,23 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amita"
                         android:textSize="15dp"
-                        android:text="¿Qué pasa cuando le faltas el respeto a alguien?" />
+                        android:text="¿Cómo era el hermano del medio?" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Se siente aliviado ya que no le importa" />
+                        android:text="El era un chico tímido y no gobernaba" />
 
                     <RadioButton
                         android:id="@+id/correcto2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="El corazón de la persona queda marcada" />
+                        android:text="Es un gran rey capaz de los mayores logros" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pedro deja de hacer travesuras"/>
+                        android:text="Era un rey curioso que causaba burlas"/>
 
                 </RadioGroup>
 
@@ -105,23 +105,23 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amita"
                         android:textSize="15dp"
-                        android:text="¿Qué debes de hacer si faltas al respeto?" />
+                        android:text="¿Cómo era el hermano más joven?" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Comer una manzana roja" />
+                        android:text="Vanidoso rey que no escucha al pueblo" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ir con mi mamá, ella me abraza y soy feliz" />
+                        android:text="Un joven rey elegante que propone muchas cosas" />
 
                     <RadioButton
                         android:id="@+id/correcto3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tengo que pedir perdón" />
+                        android:text="rey humilde y práctico, que había mejorado sus vidas" />
 
                 </RadioGroup>
 
@@ -150,11 +150,10 @@
                 android:padding="20sp"
                 android:visibility="gone">
 
-
-                <ImageView
-                    android:layout_width="wrap_content"
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ozuna"/>
+                    android:src="@drawable/guoba"/>
 
                 <TextView
                     android:layout_marginTop="15dp"

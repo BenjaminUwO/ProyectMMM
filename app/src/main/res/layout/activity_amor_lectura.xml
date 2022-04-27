@@ -69,6 +69,18 @@
                 android:textAlignment="viewStart"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/BtnRegresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="@color/style_button"
+                android:fontFamily="@font/amita"
+                android:text="cuestionario"
+                android:textColor="@color/cafekk"
+                android:textSize="15dp"/>
+
         </LinearLayout>
     </ScrollView>
 
