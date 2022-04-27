@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAmorLectura"
+    android:background="@drawable/lectura_amor_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Lectura #1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bold"
+                android:text="¿Qué es el amor?"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_bolditalic"
+                android:text="Escrito por Marisa Alonso"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/amor_lectura" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/lato_regular"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="35sp"
+                android:text="Desde que se quedó viudo, Alberto solo vivía para ellas. Jana acababa de hacer cuatro años y Emma tenía siete.\n\n  Todas las mañanas levantaba a las niñas para llevarlas al colegio, preparaba su desayuno y ayudaba a Jana a terminar de vestirse y preparar su mochila. Emma, como era la mayor, ya lo hacía sola.\n\n  Un día Jana preguntó a su padre:\n\n  - Papá, ¿qué es el amor?\n\n  Alberto miró a su hija embobado y la abrazó.\n\n  - Esto es amor, Jana - le contestó después.\n\n  - Papá, ¿qué es el amor? - volvió a preguntar Jana de camino al colegio.\n\n  Alberto la miró y la besó.\n\n  - Esto es amor, Jana - le dijo después.\n\n  Un día que Alberto hacía dos trenzas a Emma, Jana preguntó de nuevo.\n\n  - Papá, ¿qué es el amor?\n\n  Alberto la miró y empezó a desenredarle el pelo también a ella.\n\n  - Esto es amor, Jana - le dijo después.\n\n  Pero Jana, nada convencida con sus respuestas insistía preguntándole cada día:\n\n  - Papá, ¿qué es el amor?\n\n  Alberto le dio a probar de las albóndigas que estaba cocinando.\n\n  - Esto es amor, Jana - le dijo después.\n\n  - ¡Vamos, papá! ¡No me tomes más el pelo! Cada vez me dices que el amor es una cosa diferente. ¡Joooooooo!\n\n  Alberto tomó su carita entre sus manos y le dijo:\n\n  - Mis amores sois tú y tu hermana Emma. ¡No te miento!\n\n  Jana se fue a dormir pensando en las palabras que le había dicho su padre.\n\n  Esa noche tuvo un bonito sueño. Su padre, como siempre, cuidaba de ella y su hermana Emma: las llevaba y recogía del colegio, las bañaba, las peinaba, las vestía, cocinaba para ellas, hacía todo lo posible para que ellas estuvieran bien y fueran felices, siempre con una sonrisa.\n\n  Entonces se dio cuenta de lo que le quería decir su padre: el amor estaba en cada detalle que tenía con ella y con Emma, en cada momento del día, por eso siendo cosas diferentes el amor siempre estaba presente entre ellos. ¡Al fin lo entendió!\n\n  Al otro día cuando Alberto fue a levantarla para ir al colegio, Jana le dio un abrazo y le dijo:\n\n  - ¡Te quiero, papá!"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

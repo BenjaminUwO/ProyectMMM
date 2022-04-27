@@ -22,6 +22,15 @@
             android:name=".Activity_Cuestionario"
             android:exported="false" />
         <activity
+            android:name=".ActivityAmorLectura"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityJusticiaLectura"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRespetoLectura"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
