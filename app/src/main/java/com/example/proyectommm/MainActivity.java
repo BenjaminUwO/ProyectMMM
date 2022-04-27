@@ -16,7 +16,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button BtnValores, BtnNombre;
+    Button BtnValores, BtnNombre, BtnCuest, BtnLecturas;
     TextView LblSaludo, LblPuntValores;
     EditText TxtNombre;
     LinearLayout ContJuegos;
@@ -32,11 +32,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         LblPuntValores = findViewById(R.id.LblSaludo);
         TxtNombre = findViewById(R.id.TxtNombre);
         ContJuegos = findViewById(R.id.ContJuegos);
+        BtnCuest = findViewById(R.id.BtnCuest);
+        BtnLecturas = findViewById(R.id.BtnLecturas);
+
 
         BtnNombre.setOnClickListener(this);
         BtnValores.setOnClickListener(this);
-
-
+        BtnLecturas.setOnClickListener(this);
+        BtnCuest.setOnClickListener(this);
     }
 
     @Override
@@ -53,11 +56,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.BtnValores:
                 openActivityValores();
                 break;
+            case R.id.BtnCuest:
+                openActivityCuestionario();
+                break;
+            case R.id.BtnLecturas:
+                openActivityLecturas();
+                break;
         }
     }
 
     public void openActivityValores() {
         Intent intentValores = new Intent(this, Activity_Valores.class);
         startActivity(intentValores);
+    }
+    public void openActivityCuestionario() {
+        Intent intentCuestionario = new Intent(this, Activity_Cuestionario.class);
+        startActivity(intentCuestionario);
+    }
+    public void openActivityLecturas() {
+        Intent intentLecturas = new Intent(this, ActivityMenuLecturas.class);
+        startActivity(intentLecturas);
     }
 }
