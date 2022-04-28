@@ -14,7 +14,7 @@ public class ActivityRespetoLectura extends AppCompatActivity implements View.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_amor_lectura);
+        setContentView(R.layout.activity_respeto_lectura);
         BtnRegresar = findViewById(R.id.BtnRegresar);
         BtnRegresar.setOnClickListener(this);
     }

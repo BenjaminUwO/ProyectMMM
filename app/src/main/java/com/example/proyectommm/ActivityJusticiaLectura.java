@@ -14,7 +14,7 @@ public class ActivityJusticiaLectura extends AppCompatActivity implements View.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_amor_lectura);
+        setContentView(R.layout.activity_justicia_lectura);
         BtnRegresar = findViewById(R.id.BtnRegresar);
         BtnRegresar.setOnClickListener(this);
     }
