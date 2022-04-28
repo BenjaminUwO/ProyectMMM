@@ -34,13 +34,13 @@ public class ActivityMenuLecturas extends AppCompatActivity implements View.OnCl
     }
 
     public void ActivityJusticia(){
-        Intent intent = new Intent(this, ActivityJusticiaLectura.class);
-        startActivity(intent);
+        Intent intent2 = new Intent(this, ActivityJusticiaLectura.class);
+        startActivity(intent2);
     }
 
     public void ActivityRespeto(){
-        Intent intent = new Intent(this, ActivityRespetoLectura.class);
-        startActivity(intent);
+        Intent intent3 = new Intent(this, ActivityRespetoLectura.class);
+        startActivity(intent3);
     }
 
     @Override
